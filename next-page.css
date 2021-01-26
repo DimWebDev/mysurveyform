@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+	background: linear-gradient(-45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+}
+
+div {
+	background: linear-gradient(180deg, rgb(39, 245, 238),  rgb(81, 252, 129), rgb(227, 245, 66),);
+	margin: 8em;
+	height: 20em;
+	padding-top: 5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	border-radius: 15px;
+	text-align: center;
+	font-family: 'Potta One', cursive;
+	color: white;
+	line-height: 5em;
+
+}
+div:hover {
+	color: rgb(88, 13, 122);
+
+}
