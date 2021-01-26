@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="surveyform.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	 <h1 id="title">Sport's Survey</h1>
+	 <p id="description">This is to point out what is the most popular sport among young people! Feel free to participate. Your opinion is valuebale, as we are trying to make sports more interesting and intriguing to everybody!</p>
+    <br><br><br>
+	<form action="next-page.html" id="survey-form">
+		<br><br><br>
+		<label for="name" id="name-label">Name/Surname</label>
+			<input id="name" type="text" name="Name" placeholder="enter your name here" required>
+		
+		<br><br>
+		<label for="email" id="email-label">E-mail</label>
+			<input id="email" type="email" placeholder="enter your e-mail here" name="email" required>
+		
+		<br><br>
+		<label for="number" id="number-label">Age</label>
+			<input id="number" type="number" name="number" placeholder="enter a number" min="10" max="50" required>
+		<br><br>
+		<label for="dropdown" id="dropdown">Select your Favourite Sport</label>
+			<select id="dropdown">
+				<option value="Footbal">Football</option>
+				<option value="Bicycle">Bicycle</option>
+				<option value="Basketball">Basketball</option>
+				<option value="Tennis">Tennis</option>
+				<option value="Swimming">Swimming</option>
+			</select>	
+		
+		<br><br><br><br><br>
+		<label>Choose gender</label><hr>
+		<label for="male" id="male">Male</label>
+			<input id="male" type="radio" name="sex" required value="male">
+		
+		<br><br>
+		<label for="female" id="female">Female</label>
+			<input id="female" type="radio" name="sex" value="Female">
+		
+		<br><br>
+		<label for="non-defined" id="non-defined">Non Defined</label>
+			<input id="non-defined" type="radio" name="sex" value="non-defined">
+			<hr>
+		
+		<br><br><br>
+		<h3>How often do you exercise?</h3>
+		<label for="Activity">Intense Activity</label>
+			<input id="checkbox" type="checkbox" name="Activity" value="active">
+		
+		<br><br>
+		<label for="Activity">Moderate Activity</label>
+			<input id="checkbox" type="checkbox" name="Activity" value="moderate">
+		
+		<br><br>
+		<label for="Activity">Little Activity</label>
+			<input id="checkbox" type="checkbox" name="Activity" value="inactive">
+		
+		<br><br>
+		<label for="Activity">No Activity</label>
+			<input id="checkbox" type="checkbox" name="Activity" value="notactive">
+		
+		<br><br>
+		<label id="textarea">Add your comments</label>
+			<br><br>
+			<textarea id="textarea" name="comments"	 rows="5" cols="100"></textarea>
+		
+		<br><br>
+		<input  id="submit" type="submit" name="" value="Submit your answers">
+
+	</form>
+</body>
+</html> 

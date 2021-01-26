@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+	background-color: yellow;
+	font-family: 'Potta One', cursive;
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	text-align: center;
+	background-image: url("sports.png");
+	padding: 4em;
+
+}
+
+h1 {
+	width: 90%;
+	font-size: 3em;
+	background: linear-gradient(45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+}
+p {
+	width: 90%;
+	font-size: 2em;
+	background: linear-gradient(-45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+}
+
+#survey-form {
+	background: linear-gradient(0deg, rgb(227, 245, 66), rgb(81, 252, 129));
+	margin: 0.5em;
+	margin-right: 6em;
+	text-align: left;
+	padding-left: 2em;
+}
+
+form h3 {
+	text-align: center;
+}
+
+select {
+	background: linear-gradient(45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+}
+input {
+	height: 27px;
+	background: linear-gradient(45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+
+}
+input:focus {
+	background: linear-gradient(45deg, rgb(219, 255, 38), rgb(252, 3, 190), rgb(194, 252, 3));
+}
+
+textarea {
+	width: 70%;
+	background: linear-gradient(45deg, rgb(227, 245, 66), rgb(81, 252, 129));
+}
+
+textarea:focus {
+	background: linear-gradient(45deg, rgb(219, 255, 38), rgb(252, 3, 190), rgb(194, 252, 3));
+}
+
+input[type=submit] {
+	background-color: red;
+	height: 1em;
+	margin-bottom: 2em;
+	padding:2em;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+input[type=submit]:hover {
+	background: linear-gradient(45deg, rgb(252, 3, 190), rgb(194, 252, 3));
+
+}
